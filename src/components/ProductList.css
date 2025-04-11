@@ -1,0 +1,25 @@
+.product-list {
+  width: 300px; 
+  height: calc(100vh - 120px); 
+  overflow-y: auto; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  background-color: white; 
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px; 
+  margin-bottom: 10px; 
+}
+
+.product-image {
+  width: 100px; 
+  height: auto; 
+}
+
+.product-info {
+  font-size: 14px; 
+}

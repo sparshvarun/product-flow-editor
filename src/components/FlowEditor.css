@@ -1,0 +1,22 @@
+
+.flow-editor {
+  flex: 1;
+  height: 70vh;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.react-flow__viewport {
+  background-color: #f8f8f8;
+}
+
+.react-flow__node {
+  cursor: grab;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.react-flow__node:active {
+  cursor: grabbing;
+}
+

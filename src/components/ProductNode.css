@@ -1,0 +1,47 @@
+.product-node {
+  padding: 10px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.node-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.node-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.node-details {
+  width: 100%;
+  text-align: center;
+}
+
+.node-details p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Style for React Flow handles */
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background: #555;
+}
+
+.react-flow__handle-top {
+  top: -4px;
+}
+
+.react-flow__handle-bottom {
+  bottom: -4px;
+}
